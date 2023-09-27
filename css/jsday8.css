@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.wrapper{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.mute{
+    width: 100px;
+    height: 250px;
+    border-radius: 50%;
+
+}
+#ourImage{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.big{
+    scale: 3;
+
+}
+.small{
+    scale: .8;
+}

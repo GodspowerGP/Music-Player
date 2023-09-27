@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player JS</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.css">
+    <link rel="shortcut icon" href="audio_images/logo.jpg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-black">
+    <section>
+        <div class="container main d-flex justify-content-center align-items-center">
+            <div class="card p-3 player ">
+                <img src="audio_images/logo.jpg" alt="cover">
+                <audio id="player"  data-set="unset"></audio>
+                <div class="d-flex justify-content-end my-3">
+                    <input type="range">
+                </div>
+                <div class="d-flex gap-2">
+                    <button class="btn btn-light btn-lg w- 100">
+                        <i class=" fas fa-random"></i>
+                    </button>
+                    <button class="btn btn-light btn-lg w- 100" id="prev">
+                        <i class=" fas fa-backward"></i>
+                    </button>
+                    <button class="btn btn-light btn-lg w- 100 d-none " id="pause">
+                        <i class=" fas fa-pause"></i>
+                    </button>
+                    <button class="btn btn-light btn-lg w- 100" id="play">
+                        <i class=" fas fa-play"></i>
+                    </button>
+                    <button class="btn btn-light btn-lg w- 100" id="next">
+                        <i class=" fas fa-forward"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/player.js"></script>
+</body>
+</html>
